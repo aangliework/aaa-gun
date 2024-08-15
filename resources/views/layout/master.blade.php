@@ -47,7 +47,6 @@ License: For each use you must have a valid license purchased only from above li
 
 <body data-base-url="{{url('/')}}">
     <script src="{{ asset('assets/js/spinner.js') }}"></script>
-    {{-- Supaya ke halaman LOGIN --}}
     <script>
         let base_url = "{{ env('APP_URL') }}";
     </script>
